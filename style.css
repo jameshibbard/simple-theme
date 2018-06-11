@@ -1,0 +1,59 @@
+/*
+  Theme Name: Simple Theme
+  Theme URI: http://hibbard.eu/
+  Author: James Hibbard
+  Author URI: http://hibbard.eu/
+  Description: A really simple theme for demonstrative purposes
+  License: MIT
+  License URI: https://opensource.org/licenses/MIT
+  Tags: simple, easy, garish, pointless
+*/
+
+*{	
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+  background:#633232;
+  color: #000;
+}
+
+.container {
+  width: 960px;
+  background: #FFF;
+  margin: 0 auto;
+}
+
+.header {
+  padding:10px;
+  background:#999;
+}
+
+.sidebar {
+  float: left;
+  width: 190px;
+  padding:10px 0 10px 10px;
+  background: #ccc;
+}
+
+.sidebar ul{
+  list-style:none;
+}
+
+.content {
+  padding: 10px 25px 25px 15px;
+  width: 720px;
+  float: left;
+}
+
+.footer {
+  background: #999;
+  position: relative;/* Gives IE6 the hasLayout property, so that clear:both will work */
+  clear: both;
+}
+
+.footer p{
+  padding:10px;
+}
